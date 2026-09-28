@@ -1,0 +1,6 @@
+- Git
+- GitHub
+- Linux
+- Programming
+- Systems Development
+- Data Engineer
