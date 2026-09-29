@@ -1,6 +1,6 @@
-- Git
-- GitHub
-- Linux
-- Programming
-- Systems Development
-- Data Engineer
+# HELLO WORLD
+
+Aprendendo fundamento bacicos
+
+- Git/GitHub
+- Linux/ubunto
