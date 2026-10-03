@@ -4,7 +4,7 @@ Aprendendo fundamento bacicos
 
   Git/GitHub
   Linux/ubunto
-
+  Windows Nativo
 
 
 
@@ -13,3 +13,4 @@ Aprendendo fundamento bacicos
 ```bash
 git --version
 ```
+cd
