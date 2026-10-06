@@ -5,7 +5,9 @@ Aprendendo fundamento bacicos
   Git/GitHub
   Linux/ubunto
   Windows Nativo
-
+  Python Automation 
+  Python Variavel
+  Python Estrutura Sequencial
 
 
 
@@ -13,4 +15,3 @@ Aprendendo fundamento bacicos
 ```bash
 git --version
 ```
-cd
