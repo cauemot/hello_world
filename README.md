@@ -1,13 +1,16 @@
 # HELLO WORLD
 
-Aprendendo fundamento bacicos
 
-  Git/GitHub
-  Linux/ubunto
-  Windows Nativo
-  Python Automation 
-  Python Variavel
-  Python Estrutura Sequencial
+  Aprendendo fundamentos básicos.
+
+  ## Assuntos estudados
+  - Git/GitHub
+  - Linux/Ubuntu
+  - Windows nativo
+  - Python: Automation
+  - Python: Variáveis
+  - Python: Estrutura Sequencial
+  - Python: Estruturas de Decisão
 
 
 
