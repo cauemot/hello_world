@@ -11,7 +11,7 @@
   - Python: Variáveis
   - Python: Estrutura Sequencial
   - Python: Estruturas de Decisão
-
+  - Python: Metodos de String
 
 
 - Como verificar a versão do git
