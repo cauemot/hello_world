@@ -1,31 +1,18 @@
-# #### 4. Cadastro de e-mails
-# A empresa sempre se comunica com seus clientes por email. Para isso, a gente tem em cada página um cadastro de nome e e-mail. 
-# Nesse cadastro, nosso sistema verifica se o e-mail que a pessoa inseriu é um e-mail valido, 
-# verificando se tem '@' e se depois do '@' tem algum ponto. Afinal:
+# Exercício 4
+# Crie um programa que consiga descobrir qual dos vendedores vendeu mais
+# As vendas dos vendedores são listas com a quantidade vendida por cada vendedor
 
-# - fulanogmail.com não é um e-mail válido
-# - fulano@gmail não é um e-mail válido
-# - fulano@gmail.com é um e-mail válido
+vendas = [
+    [10, 20, 100, 80, 90, 100, 20, 30, 44, 55, 33, 34, 100, 90, 80, 39, 87, 45, 50, 50, 50, 50, 40, 30, 3, 93, 39, 49, 88],    
+    [100, 1, 1, 4, 5, 90, 100, 20, 4, 5, 100, 100, 100, 100, 100, 93, 20, 15, 40, 90, 90, 90, 90, 90, 90, 33, 22, 44, 43, 34],
+]
 
-# Crie um programa que permita o cadastro de nome e e-mail de uma pessoa (por meio de inputs) e que verifique:
-# 1. Se o nome e e-mail foram preenchidos, caso contrario ele deve avisar para preencher todos os dados corretamente
-# 2. Se o e-mail contém '@' e se depois do '@' existe algum '.' caso contrario ele deve exibir uma mensagem de e-mail inválido
+venda_vendedor1 = sum(vendas[0])
+print('Total vendido pelo o primeiro vendedor: {}'.format(venda_vendedor1))
+venda_vendedor2 = sum(vendas[1])
+print('Total vendido pelo o segundo vendedor: {}'.format(venda_vendedor2))
 
-# Obs.: Pode te ajudar lembrar o método  .find() da aula de métodos de String. 
-# Você pode testar o que ele da como resposta caso ele não encontre um item dentro da strings.
-
-print('Cadastrar novo login')
-nome = input('Informe seu Nome: ')
-email = input('Informe seu E-mail: ')
-
-
-
-if nome and email:
-    pos_a = email.find('@')
-    servidor = email[pos_a:]
-    if pos_a != -1 and '.' in servidor:
-        print('Cadastro concluido')
-    else:
-        print('E-mail invalido')
+if venda_vendedor1 > venda_vendedor2:
+    print("O primeiro vendedor vendeu mais que o segundo")
 else:
-    print('Digite o nome e e-mail corretamente!')
+    print('O segundo vendedor vendeu mais que o primeiro')

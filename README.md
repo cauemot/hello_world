@@ -1,20 +1,21 @@
 # HELLO WORLD
 
+Aprendendo fundamentos básicos.
 
-  Aprendendo fundamentos básicos.
+## Assuntos estudados
+- Git/GitHub
+- Linux/Ubuntu
+- Windows nativo
+- Python: Automation
+- Python: Variáveis
+- Python: Estrutura Sequencial
+- Python: Estruturas de Decisão
+- Python: Métodos de String
+- Python: Listas
 
-  ## Assuntos estudados
-  - Git/GitHub
-  - Linux/Ubuntu
-  - Windows nativo
-  - Python: Automation
-  - Python: Variáveis
-  - Python: Estrutura Sequencial
-  - Python: Estruturas de Decisão
-  - Python: Metodos de String
+## Comandos úteis
+Como verificar a versão do Git:
 
-
-- Como verificar a versão do git
 ```bash
 git --version
 ```
